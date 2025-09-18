@@ -132,7 +132,7 @@ const Home: React.FC = () => {
               </Link>
             </div>
             <div>
-              <img src="/images/poznajmn.jpg" alt="Patryk Kulpa" className="rounded-lg w-full max-w-sm mx-auto shadow-2xl transform md:hover:scale-105 transition-transform duration-300" />
+              <img src="/images/poznajmn" alt="Patryk Kulpa" className="rounded-lg w-full max-w-sm mx-auto shadow-2xl transform md:hover:scale-105 transition-transform duration-300" />
             </div>
           </div>
         </div>
