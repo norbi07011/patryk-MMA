@@ -6,15 +6,15 @@ import ImageSlider from './ImageSlider';
 const About: React.FC = () => {
   const { t } = useLanguage();
   const images = [
-  '/images/galeria zdjec (1).jpg',
-  '/images/galeria zdjec (2).jpg',
-  '/images/galeria zdjec (3).jpg',
-  '/images/galeria zdjec (5).jpg',
-  '/images/galeria zdjec (6).png',
-  '/images/galeria zdjec (7).jpg',
-  '/images/galeria zdjec (8).jpg',
-  '/images/galeria zdjec (9).png',
-  '/images/galeria zdjec (10).jpg',
+  '/images/galeria1.jpg',
+  '/images/galeria2.jpg',
+  '/images/galeria3.jpg',
+  '/images/galeria5.jpg',
+  '/images/galeria6.png',
+  '/images/galeria7.jpg',
+  '/images/galeria8.jpg',
+  '/images/galeria9.png',
+  '/images/galeria10.jpg',
   ];
 
   return (
@@ -40,8 +40,8 @@ const About: React.FC = () => {
              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl">
         <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Certyfikat</h3>
         <div className="p-1 bg-gray-200 dark:bg-gray-700 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-neon-yellow/30 flex flex-col gap-4">
-          <img src="/images/certyfikat.jpg" alt="Certyfikat 1" className="rounded-md shadow-md w-full"/>
-          <img src="/images/certyfikat 1.jpg" alt="Certyfikat 2" className="rounded-md shadow-md w-full"/>
+                    <img src="/images/certyfikat.jpg" alt="Certyfikat 1" className="rounded-md shadow-md w-full"/>
+                    <img src="/images/certyfikat1.jpg" alt="Certyfikat 2" className="rounded-md shadow-md w-full"/>
         </div>
              </div>
              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl">

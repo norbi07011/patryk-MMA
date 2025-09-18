@@ -34,12 +34,12 @@ const Home: React.FC = () => {
   const { t } = useLanguage();
   
   const carouselImages = [
-  '/images/OKŁADKA STRONY  (1).jpg',
-  '/images/OKŁADKA STRONY  (2).jpg',
-  '/images/OKŁADKA STRONY  (3).jpg',
-  '/images/OKŁADKA STRONY  (4).jpg',
-  '/images/OKŁADKA STRONY  (5).jpg',
-  '/images/OKŁADKA STRONY  (6).jpg',
+  '/images/okladka1.jpg',
+  '/images/okladka2.jpg',
+  '/images/okladka3.jpg',
+  '/images/okladka4.jpg',
+  '/images/okladka5.jpg',
+  '/images/okladka6.jpg',
   ];
   
   const disciplines = ['Boks', 'Kickboxing', 'Wrestling', 'MMA', 'Grappling'];
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
               </Link>
             </div>
             <div>
-              <img src="/images/POZNAJ MNIE.JPG" alt="Patryk Kulpa" className="rounded-lg w-full max-w-sm mx-auto shadow-2xl transform md:hover:scale-105 transition-transform duration-300"/>
+              <img src="/images/poznajmn.jpg" alt="Patryk Kulpa" className="rounded-lg w-full max-w-sm mx-auto shadow-2xl transform md:hover:scale-105 transition-transform duration-300" />
             </div>
           </div>
         </div>
